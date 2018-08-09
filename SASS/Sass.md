@@ -32,9 +32,9 @@ Cuando trabajamos con preprocesadores se tiene que compilar el código para tran
 
 los archivos de sass tienen las extensión `.scss`.
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice>🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Estructura de CSS
 
@@ -48,9 +48,9 @@ La forma de nombrar los archivos que van a ser importados es con un `_` al inici
 @import "_nombre_archivo.scss"
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Variables
 
@@ -74,9 +74,9 @@ body {
 
 Como su nombre indica, BEM distingue claramente 3 conceptos: el Bloque, el Elemento y el Modificador.
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ### Escapar una variable
 
@@ -92,9 +92,9 @@ div {
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Anidaciones
 
@@ -112,9 +112,9 @@ div {
 
 El comodín `&` se usa para hacer referencia al padre.
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Mixins
 
@@ -135,10 +135,10 @@ En este caso le estamos definiendo un valor por defecto. Si deseamos cambiar ese
 ```scss
 @mixin max-width(1200px)
 ```
-
+<!-- 
 <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ### Content
 
@@ -163,9 +163,9 @@ section {
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Extend
 
@@ -183,9 +183,9 @@ Permiten que una declaración herede estilos declarados por otra regla o placeho
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Funciones
 
@@ -200,9 +200,9 @@ invert(#ffffff)
 La lista completa de funciones se pueden ver aquí:
 https://sass-lang.com/documentation/file.SASS_REFERENCE.html#functions
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ### Crear funciones
 
@@ -216,9 +216,9 @@ https://sass-lang.com/documentation/file.SASS_REFERENCE.html#functions
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Array
 
@@ -239,9 +239,9 @@ small {
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Controles de Flujo
 
@@ -271,9 +271,9 @@ y esto da como resultado:
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ### for
 
@@ -305,9 +305,9 @@ Resultado:
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ### if
 
@@ -326,9 +326,9 @@ $background-color: black;
 }
 ```
 
-<div align="right">
+<!-- <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
-</div>
+</div> -->
 
 ## Enlaces de Interés
 * [Diseno Web Wordpress](https://www.disenowebwordpress.com)

@@ -334,6 +334,8 @@ $background-color: black;
 * [Diseno Web Wordpress](https://www.disenowebwordpress.com)
 * [Manual SASS español](https://librosweb.es/libro/sass/)
 * [Videos SASS español](https://www.youtube.com/watch?v=ZHW0xOLmBdU)
+* [Sassmesiter](https://www.sassmeister.com)
+* [Docuemntación oficial](https://sass-lang.com)
 
 <div align="right">
   <small><a href="#Índice">🡡 volver al inicio</a></small>

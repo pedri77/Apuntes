@@ -3,7 +3,7 @@
 ## Índice<!-- omit in toc -->
 - [Diferencias entre Sass, Stylus y Less](#diferencias-entre-sass-stylus-y-less)
 - [Estructura de CSS](#estructura-de-css)
-- [Compiladores](#Compiladores)
+- [Compiladores](#compiladores)
 - [Variables](#variables)
   - [Escapar una variable](#escapar-una-variable)
 - [Anidaciones](#anidaciones)

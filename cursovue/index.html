@@ -9,10 +9,23 @@
 <body>
     <div id="app">
         Hola {{ nombre }}
+        <div v-if="mostrar">
+            <p>Parrafo de prueba</p>
+        </div>
+        <h1>Este es  mi titulo</h1>
+        <h2>Este es mi subtitulo</h2>
         <a href="https://www.google.com" target="_blank">Google</a>
         <a v-bind:href="url">{{pagina}}</a>
-        //podemos hacer un shortcode con :href
+        <a v-if="mostrar" :href="pagina2">{{pagina2}}</a>
+        
     </div>
+    <template v-if="mostrar">Elemento template</template>
+
+    <div v-show="mostrar">Visible</div>
+    
+    <div v-show="!mostrar">Oculto</div>
+    
+
 
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -22,7 +35,9 @@
             data: {
                 nombre: 'Mundo',
                 url: 'https://www.wikipedia.org',
-                pagina: 'ir a Wikipedia'
+                pagina: 'ir a Wikipedia',
+                pagina2: 'http://www.disenowebwordpress.com',
+                mostrar: true
             }
         })
     </script>

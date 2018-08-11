@@ -67,6 +67,7 @@ Se encarga solo de la vista
 * [snabbdom](https://github.com/snabbdom/snabbdom)
 * [Rompiendo el mundo del binario con VueJS](https://www.youtube.com/watch?v=ysx2Dpaju4w)
 * [SAILS](https://www.youtube.com/watch?v=ysx2Dpaju4w)
+* [Introducción](https://vuejs.org/v2/guide/)
 
 
 

@@ -9,6 +9,9 @@
 <body>
     <div id="app">
         Hola {{ nombre }}
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a v-bind:href="url">{{pagina}}</a>
+        //podemos hacer un shortcode con :href
     </div>
 
     <!-- development version, includes helpful console warnings -->
@@ -17,7 +20,9 @@
         let app = new Vue({
             el: '#app',
             data: {
-                nombre: 'Mundo'
+                nombre: 'Mundo',
+                url: 'https://www.wikipedia.org',
+                pagina: 'ir a Wikipedia'
             }
         })
     </script>
